@@ -15,3 +15,25 @@ print(MYVAR)
 
 myvar2 = "John"
 print(myvar2)
+
+
+# MULTI WORDS VARIABLE NAMES
+# CAMEL CASE(Each word except the first start with a capital letter)
+
+myVariableName = 'Jesus'
+print(myVariableName)
+
+numberOfIssues = 7
+print(numberOfIssues)
+
+# PASCAL CASE(Everyword starts with a capital letter)
+MyVariableName = 'She is a good girl'
+print(MyVariableName)
+
+NumberOfIssues = 8
+print(NumberOfIssues)
+
+# SNAKE CASE(Everyword is separated with an underscore)
+my_variable_name = 'Jesus is king'
+print(my_variable_name)
+
