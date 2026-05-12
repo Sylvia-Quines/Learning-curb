@@ -38,3 +38,51 @@ print(my_variable_name)
 
 number_Of_Issues = 12
 print(number_Of_Issues)
+
+
+# ASSIGNING MULTIPLE VALUES TO MANY VARIABLES
+
+X,Y,Z = 'Orange', 'Banana', 'Cococnut'
+print(X)
+print(Y)
+print(Z)
+
+# ASSIGNING ONE VALUE TO MULTIPLE VARIABLES
+S=T=U = 'Car'
+print(S)
+print(T)
+print(U)
+
+
+
+S,T,U = 'Car'
+print(S)
+print(T)
+print(U)
+
+
+# UNPACKING A COLLECTION
+Fruits = ['She', 'He', 'Them']
+x, y, z = Fruits
+print(x)
+print(y)
+print(z)
+
+# OUTPUT VARIABLES(Print is used to often output variables)
+l = 'python is awesome'
+
+# USING , TO OUPUT MULTIPLE VARIABLES WITH PRINT
+b = 'Python'
+c = 'is'
+d = 'awesome'
+print(b,c,d)
+
+# USING + TO OUPUT MULTIPLE VARIABLES WITH PRINT
+B = 'Python '
+C = 'is '
+D = 'awesome'
+print(B+C+D)
+
+r = 'Ewura is'
+s = 7
+print(r,7)
