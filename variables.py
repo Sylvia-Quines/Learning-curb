@@ -86,3 +86,49 @@ print(B+C+D)
 r = 'Ewura is'
 s = 7
 print(r,7)
+
+# GLOBAL VARIABLES (Variables that are created outside a function)
+x = 'awesome'
+def myfunc():
+    print('Python is ' + x)
+    
+myfunc() 
+print('She is ' + x)
+
+# LOCAL VARIABLES
+def myfunc():
+    x = 'awesome'
+    print('Python is ' + x)
+    
+myfunc() 
+
+# THE VARIABLE OUTIDE THE FUNCTION STAYS THE SAME 
+x = 'awesome'
+def myfunc():
+    X = 'nice'
+    print('Python is ' + X)
+    
+myfunc() 
+
+def myfunc():
+    global y
+    y = 'husband'
+    print ('Alex is Ewura ' + y)
+
+myfunc()    
+    
+print("Python is " + y)
+
+
+
+
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
