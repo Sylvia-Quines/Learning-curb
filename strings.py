@@ -51,3 +51,31 @@ print("expensive" not in txt)
 txt = "The best things in life are free!"
 if "expensive" not in txt:
   print("No, 'expensive' is NOT present.")  
+  
+  
+  
+#SLICING
+b = "Hello, World!"
+print(b[2:5])
+
+b = "Hello, World!"
+print(b[:5])  
+
+b = "Hello, World!"
+print(b[-2])
+
+b = "Hello, World!"
+print(b[3:])
+
+b = "Hello, World!"
+print(b[0:])
+
+b = "Hello, World!"
+print(b[-5:-2])
+  
+  
+  
+  
+  
+  
+  
