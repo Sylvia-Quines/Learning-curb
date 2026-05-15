@@ -34,3 +34,20 @@ for y in 'I am fine':
 g = 'When is my mum coming?'
 print(len(g))
 
+#CHECK STRING
+txt = "The best things in life are free!"
+print("free" in txt)
+
+
+txt = "The best things in life are !"
+if "free" in txt:
+  print("Yes, 'free' is present.")
+  
+  
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+
+
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")  
