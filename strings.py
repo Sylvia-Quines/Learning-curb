@@ -72,7 +72,32 @@ print(b[0:])
 
 b = "Hello, World!"
 print(b[-5:-2])
-  
+
+# MODIFYING STRINGS
+
+w = 'Come back home!'
+print(w.upper())
+
+print(w.lower())
+
+# The strip() removes the whitespaces before and after the text
+w = '  Come back home!  '
+print(w.strip())
+
+w = 'Come back home!  '
+print(w.strip())
+
+w = '  Come back home!'
+print(w.strip())
+
+# Replace- replaces a string with another string 
+w = '  Come back home!  '
+print(w.replace('c', 'k'))  
+
+
+# The split() method returns a list where the text between the specified separator becomes the list items. 
+a = "Hello, World!"
+print(a.split(",")) 
   
   
   
