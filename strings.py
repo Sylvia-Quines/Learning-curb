@@ -99,6 +99,29 @@ print(w.replace('c', 'k'))
 a = "Hello, World!"
 print(a.split(",")) 
   
+txt = "apple,banana,mango"
+print(txt.split(","))
+
+txt = "2024-05-16"
+print(txt.split("-"))
+
+v = 'She is good'  
+print(v.split('is'))
+
+# STRING CONCATENATION 
+a = 'She'
+b = ' went'
+print(a+b)
+
+
+# F-STRING(FORMAT) - TO COMBINE STRINGS WITH NUMBERS 
+age = 36
+txt = "My name is John, I am " + str(age)
+print(txt)
+
+age = 36
+txt = f"My name is John, I am {age}"
+print(txt)
   
   
   
