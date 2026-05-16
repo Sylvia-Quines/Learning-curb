@@ -122,8 +122,21 @@ print(txt)
 age = 36
 txt = f"My name is John, I am {age}"
 print(txt)
+
+# PLACEHOLDERS(the {} inside an f-string that will be filled when the code runs) & MODIFIERS(an instruction inside the {} that controls how a value is displayed) 
   
-  
-  
+price = 400000000
+name = 'Rita'
+age = 23
+
+print(f'Adwoa is {age}') 
+print(f'Change my {price:,}')
+print(f'The pice is {price:.2f}')
+print(f'The pice is {6 + 7}')
+
+# The escape character allows you to use double quotes when you normally would not be allowed 
+
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
   
   
