@@ -23,3 +23,14 @@ y = 5
 
 print(x / y)  #returns a float
 print(x//y) #returns an integer
+
+# COMPARISON OPERATORS 
+x = 5
+y = 3
+
+print(x == y)
+print(x != y)
+print(x > y)
+print(x < y)
+print(x >= y)
+print(x <= y)
