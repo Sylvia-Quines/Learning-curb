@@ -68,3 +68,13 @@ y = [1, 2, 3]
 
 print(x == y)
 print(x is y)
+
+# ASSIGNMENT OPERATORS
+
+x = 5
+
+x += 3
+x -= 4
+x *= 7
+x %= 3
+print(x)
