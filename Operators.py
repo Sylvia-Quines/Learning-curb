@@ -90,3 +90,15 @@ if (count := len(numbers)) > 7:
     
 else:
     print(f'List does not have {count} elements')
+    
+
+numbers = [1, 2, 3, 4, 5]
+
+# Without walrus — 2 lines
+count = len(numbers)
+if count > 3:
+    print(f"List has {count} elements")   # List has 5 elements
+
+# With walrus — 1 line, same result
+if (count := len(numbers)) > 3:
+    print(f"List has {count} elements")   # List has 5 elements    
