@@ -80,3 +80,13 @@ x %= 3
 x /= 4
 x //= 4
 print(x)
+
+# WALRUS OPERATOR (:=) ASSIGNS A VALUE TO A VARIABLE AND USES THE VALUE AT THE SAME TIME
+
+numbers = [1, 2, 3, 4, 5]
+
+if (count := len(numbers)) > 7:
+    print(f"List has {count} elements")
+    
+else:
+    print(f'List does not have {count} elements')
