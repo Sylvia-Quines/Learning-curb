@@ -101,4 +101,10 @@ if count > 3:
 
 # With walrus — 1 line, same result
 if (count := len(numbers)) > 3:
-    print(f"List has {count} elements")   # List has 5 elements    
+    print(f"List has {count} elements")   # List has 5 elements  
+
+
+# LOGICAL OPRATORS 
+x = 5
+
+print(x > 0 and x < 10) 
