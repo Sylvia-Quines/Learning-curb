@@ -119,8 +119,8 @@ x = ["apple", "banana"]
 y = ["apple", "banana"]
 z = x
 
-print(x is z)
-print(x is y)
+print(x is z) #x and z point to the same memory location
+print(x is y)# False — x and y have same values but live in different memory locations
 print(x == y)
 
 
@@ -128,3 +128,9 @@ x = ["apple", "banana"]
 y = ["apple", "banana"]
 
 print(x is not y)
+
+# MEMBERSHIP OPERATORS
+fruits = ["apple", "banana", "cherry"]
+
+print("banana" in fruits)
+print("pineapple" not in fruits)
