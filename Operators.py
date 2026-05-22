@@ -144,4 +144,4 @@ print("z" not in text)
 
 #BITWISE OPERATORS
 print(6 & 3)
-# print(6 | 3)
+print(6 | 3)
