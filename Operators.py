@@ -145,3 +145,8 @@ print("z" not in text)
 #BITWISE OPERATORS
 print(6 & 3)
 print(6 | 3)
+
+# Operator Precedence
+# Operator precedence describes the order in which operations are performed.
+
+print((6 + 3) - (6 + 3))
