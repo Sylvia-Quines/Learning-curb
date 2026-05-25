@@ -31,3 +31,8 @@ mylist = ["ice cream", "vanilla", "oreo"]
 print(mylist[1])
 print(mylist[0])
 print(mylist[-2])
+
+mylist = ["ice cream", "vanilla", "oreo"]
+print(mylist[1:2])
+print(mylist[0:2])
+print(mylist[0:2])
