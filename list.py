@@ -45,5 +45,9 @@ else:
     print('It is not!') 
     
     
-    
+mylist = ["ice cream", "vanilla", "oreo"]
+mylist[2] = 'Strawberry'    
+print(mylist)
+
+
        
