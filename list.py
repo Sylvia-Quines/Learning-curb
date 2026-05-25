@@ -49,5 +49,7 @@ mylist = ["ice cream", "vanilla", "oreo"]
 mylist[2] = 'Strawberry'    
 print(mylist)
 
-
+mylist = ["ice cream", "vanilla", "oreo"]
+mylist[1:2] = ['mango']
+print(mylist)
        
