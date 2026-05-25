@@ -36,3 +36,14 @@ mylist = ["ice cream", "vanilla", "oreo"]
 print(mylist[1:2])
 print(mylist[0:2])
 print(mylist[0:2])
+print(mylist[-2:-1])
+
+if 'ice' in mylist:
+    print('It is in!')
+    
+else:
+    print('It is not!') 
+    
+    
+    
+       
