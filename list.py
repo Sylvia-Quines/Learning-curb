@@ -24,3 +24,10 @@ print(thislist[1])
 
 thislist = ["apple", "banana", "cherry"]
 print(thislist[-1])
+
+
+# ACCESSING LIST 
+mylist = ["ice cream", "vanilla", "oreo"]
+print(mylist[1])
+print(mylist[0])
+p
