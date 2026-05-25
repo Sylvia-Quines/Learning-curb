@@ -30,4 +30,4 @@ print(thislist[-1])
 mylist = ["ice cream", "vanilla", "oreo"]
 print(mylist[1])
 print(mylist[0])
-p
+print(mylist[-2])
