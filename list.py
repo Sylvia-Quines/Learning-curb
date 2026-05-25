@@ -52,4 +52,13 @@ print(mylist)
 mylist = ["ice cream", "vanilla", "oreo"]
 mylist[1:2] = ['mango']
 print(mylist)
+
+mylist = ["ice cream", "vanilla", "oreo"]
+mylist[1:2] = ['mango', 'water']
+print(mylist)
+
+mylist = ["ice cream", "vanilla", "oreo"]
+mylist[0:2] = ['water']
+print(mylist)
+       
        
