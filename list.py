@@ -103,3 +103,7 @@ print(thislist)
 myColor = ['red', 'indigo', 'pink', 'blue'] 
 myColor.remove('red')
 print(myColor)
+
+myColor = ['red', 'indigo', 'pink', 'blue', 'indigo'] 
+myColor.remove('indigo')
+print(myColor)
