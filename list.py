@@ -61,4 +61,8 @@ mylist = ["ice cream", "vanilla", "oreo"]
 mylist[0:2] = ['water']
 print(mylist)
        
+#CHANGE ITEM VALUE
+myColor = ['red', 'indigo', 'pink', 'blue']
+myColor[2] = 'white'       
+print(myColor)
        
