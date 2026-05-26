@@ -88,3 +88,8 @@ print(myColor)
 myColor = ['red', 'indigo', 'pink', 'blue'] 
 myColor.append('grey') #Append - add items to the end of the list
 print(myColor)
+
+myColor = ['red', 'indigo', 'pink', 'blue'] 
+thislist = ["apple", "banana", "cherry"]# EXTEND - add two lists
+thislist.extend(myColor)
+print(thislist)
