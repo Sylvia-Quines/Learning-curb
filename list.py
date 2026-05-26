@@ -93,3 +93,9 @@ myColor = ['red', 'indigo', 'pink', 'blue']
 thislist = ["apple", "banana", "cherry"]# EXTEND - add two lists
 thislist.extend(myColor)
 print(thislist)
+
+#EXTEND can add list and tuple,set and dict.together
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+thislist.extend(thistuple)
+print(thislist)
