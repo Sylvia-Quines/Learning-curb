@@ -84,3 +84,7 @@ myColor = ['red', 'indigo', 'pink', 'blue']
 myColor.insert(1, 'green')      
 print(myColor)
 
+#ADD ITEMS
+myColor = ['red', 'indigo', 'pink', 'blue'] 
+myColor.append('grey') #Append - add items to the end of the list
+print(myColor)
