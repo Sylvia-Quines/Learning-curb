@@ -112,3 +112,15 @@ print(myColor)
 myColor = ['red', 'indigo', 'pink', 'blue', 'indigo'] 
 myColor.pop(1)
 print(myColor)
+
+myColor = ['red', 'indigo', 'pink', 'blue', 'indigo'] 
+del myColor[2]
+print(myColor)
+
+myColor = ['red', 'indigo', 'pink', 'blue', 'indigo'] 
+del myColor
+
+
+myColor = ['red', 'indigo', 'pink', 'blue', 'indigo'] 
+myColor.clear()
+print(myColor)
