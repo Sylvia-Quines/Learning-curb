@@ -79,3 +79,8 @@ thislist = ["apple", "banana", "cherry"]
 thislist[1:3] = ["watermelon"]
 print(thislist)       
 
+
+myColor = ['red', 'indigo', 'pink', 'blue']
+myColor.insert(1, 'green')      
+print(myColor)
+
