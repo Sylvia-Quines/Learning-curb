@@ -107,3 +107,8 @@ print(myColor)
 myColor = ['red', 'indigo', 'pink', 'blue', 'indigo'] 
 myColor.remove('indigo')
 print(myColor)
+
+
+myColor = ['red', 'indigo', 'pink', 'blue', 'indigo'] 
+myColor.pop(1)
+print(myColor)
