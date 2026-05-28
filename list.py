@@ -140,4 +140,8 @@ x = 0 # set counter variable starting from 0
 while x < len(myColor):  # x<3 so loop runs
     print(myColor[x]) # print the current item
     x = x + 1 # increment the counter so the loop moves to the next item
-  
+
+
+myColor = ['red', 'indigo', 'pink', 'blue', 'indigo'] 
+[print (x) for x in myColor]
+
