@@ -166,3 +166,12 @@ print(newColor)
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = [x for x in fruits if "a" in x]
 print(newlist)    
+
+naMes = ['Yaw', 'Shack', 'Ama', 'Bernice', 'Esther', 'Comfort']
+naMes.sort()
+print(naMes)
+
+aGes = [132, 5634, 876, 34, 100, 865, 453, 234, 333, 564]
+aGes.sort()
+print(aGes)
+
