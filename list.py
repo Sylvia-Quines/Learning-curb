@@ -187,8 +187,26 @@ print(naMes)
 
 
 def myfunc(n):
-  return abs(n - 82)
+  return abs(n - 102)
 
 thislist = [100, 50, 65, 82, 23]
 thislist.sort(key = myfunc)
 print(thislist)
+
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort()
+print(thislist)
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort(key = str.lower)
+print(thislist)
+
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.reverse()
+print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)
