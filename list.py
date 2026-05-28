@@ -145,3 +145,10 @@ while x < len(myColor):  # x<3 so loop runs
 myColor = ['red', 'indigo', 'pink', 'blue', 'indigo'] 
 [print (x) for x in myColor]
 
+myColor = ['red', 'indigo', 'pink', 'blue', 'indigo'] #creates a list
+newBatch = [] #creates a new empt list
+for x in myColor: #loop through myColor
+    if 'i' in x: # check if there is i in the items
+        newBatch.append(x) #add to the new list
+        
+print(newBatch)      
