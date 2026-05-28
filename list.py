@@ -151,4 +151,14 @@ for x in myColor: #loop through myColor
     if 'i' in x: # check if there is i in the items
         newBatch.append(x) #add to the new list
         
-print(newBatch)      
+print(newBatch)  
+
+myColor = ['red', 'indigo', 'pink', 'blue', 'indigo']
+newColor = []
+i = 0
+while i < len(myColor):
+    if 'a' in myColor[i]:
+        newColor.append(i)
+    i = i + 1
+print(newColor)        
+    
