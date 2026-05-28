@@ -124,3 +124,14 @@ del myColor
 myColor = ['red', 'indigo', 'pink', 'blue', 'indigo'] 
 myColor.clear()
 print(myColor)
+
+
+#LOOP THROUGH A LIST
+myColor = ['red', 'indigo', 'pink', 'blue', 'indigo'] 
+for x in myColor:
+    print(x)
+    
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+  print(thislist[i])
+      
