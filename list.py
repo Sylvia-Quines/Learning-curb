@@ -183,3 +183,12 @@ print(aGes)
 naMes = ['Yaw', 'Shack', 'Ama', 'Bernice', 'Esther', 'Comfort']
 naMes.sort(reverse=True)
 print(naMes)
+
+
+
+def myfunc(n):
+  return abs(n - 82)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = myfunc)
+print(thislist)
