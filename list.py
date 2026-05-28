@@ -175,3 +175,11 @@ aGes = [132, 5634, 876, 34, 100, 865, 453, 234, 333, 564]
 aGes.sort()
 print(aGes)
 
+
+aGes = [132, 5634, 876, 34, 100, 865, 453, 234, 333, 564]
+aGes.sort(reverse= True)
+print(aGes)
+
+naMes = ['Yaw', 'Shack', 'Ama', 'Bernice', 'Esther', 'Comfort']
+naMes.sort(reverse=True)
+print(naMes)
