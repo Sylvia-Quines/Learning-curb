@@ -134,4 +134,10 @@ for x in myColor:
 thislist = ["apple", "banana", "cherry"]
 for i in range(len(thislist)):
   print(thislist[i])
-      
+
+myColor = ['red', 'indigo', 'pink', 'blue', 'indigo']     
+x = 0 # set counter variable starting from 0
+while x < len(myColor):  # x<3 so loop runs
+    print(myColor[x]) # print the current item
+    x = x + 1 # increment the counter so the loop moves to the next item
+  
