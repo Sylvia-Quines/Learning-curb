@@ -53,3 +53,14 @@ tuple2 = ('apple','banana', 'mango')
 tuple1 = (1,2,3,4,5,6,7)
 tuple2 += tuple1
 print(tuple2)
+
+tuple2 = ('apple','banana', 'mango')
+tu3 = list(tuple2)
+tu3.remove('apple')
+tuple2 = tuple(tu3)
+print(tuple2)
+
+tuple2 = ('apple','banana', 'mango')
+del tuple2
+print(tuple2)
+
