@@ -60,7 +60,23 @@ tu3.remove('apple')
 tuple2 = tuple(tu3)
 print(tuple2)
 
+
+#UNPACKING A TUPLE
 tuple2 = ('apple','banana', 'mango')
-del tuple2
-print(tuple2)
+(apple , banana, mango) = tuple2
+print(apple)
+print(banana)
+print(mango)
+
+tuple2 = ('apple','banana', 'mango')
+(*red , tropic) = tuple2
+print(red)
+print(tropic)
+
+
+#LOOP THROUGH A TUPLE
+tuple2 = ('apple','banana', 'mango')
+for a in tuple2:
+    print(a)
+
 
