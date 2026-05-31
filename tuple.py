@@ -79,4 +79,23 @@ tuple2 = ('apple','banana', 'mango')
 for a in tuple2:
     print(a)
 
+tuple2 = ('apple','banana', 'mango')
+for a in range (len(tuple2)):
+    print(tuple2[a])
 
+tuple2 = ('apple','banana', 'mango')
+i = 0
+while i < len(tuple2):
+    print(tuple2[i])
+    i = i + 1
+    
+    
+#ADDING TWO TUPLES
+tuple2 = ('apple','banana', 'mango')
+tuple1 = (1,2,3,4,5,6,7)
+tuple4 = tuple2 + tuple1
+print(tuple4)
+
+tuple2 = ('apple','banana', 'mango')
+mytuple = tuple2 * 2
+print(mytuple)
