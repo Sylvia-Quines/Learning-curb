@@ -38,3 +38,25 @@ set2 = {'Dog', 'Cat', 'Pig'}
 set1.update(set2)
 print(set1)
 
+set1 = {1,2,3,4,5,6}
+list1 = ['Dog', 'Cat', 'Pig']
+
+set1.update(list1)
+print(set1)
+
+set2 = {'Dog', 'Cat', 'Pig'}
+set2.remove('Dog')
+print(set2)
+
+
+#Will not raise an error if the item does not exist but remove will if the item does not exist
+set2 = {'Dog', 'Cat', 'Pig'}
+set2.discard('mice')
+print(set2)
+
+
+#Will remove a random item
+set2 = {'Dog', 'Cat', 'Pig'}
+set2.pop()
+print(set2)
+
