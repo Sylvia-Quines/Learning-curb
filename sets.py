@@ -5,5 +5,6 @@ mySet = {'food', 'money', 'bag', 'house', 'shoe', 'bag'} #set cannot have duplic
 print(mySet)
 
 #True and 1 are considered the same values in set same as false and 0
-thisSet = {True, 'False', 'Another', 1 ,6}
+thisSet = {True, False, 'Another', 1 ,6}
 print(thisSet)
+
