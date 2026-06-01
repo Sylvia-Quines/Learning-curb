@@ -99,3 +99,36 @@ y = {'Dog', 'Cat','milk', 'Pig'}
 
 w = x & y
 print(w)
+
+
+x = {1,2,3,4,5,6, 'milk'}
+y = {'Dog', 'Cat','milk', 'Pig'}
+x.intersection_update(y)
+print(x)
+
+x = {1,2,3,4,5,6, 'milk'}
+y = {'Dog', 'Cat','milk', 'Pig'}
+
+w = x.difference(y) 
+print(w)
+
+x = {1,2,3,4,5,6, 'milk'}
+y = {'Dog', 'Cat','milk', 'Pig'}
+
+w = x-y
+print(w)
+
+
+x = {1,2,3,4,5,6, 'milk'}
+y = {'Dog', 'Cat','milk', 'Pig'}
+
+w = x.symmetric_difference(y) 
+print(w)
+
+x = {1,2,3,4,5,6, 'milk'}
+y = {'Dog', 'Cat','milk', 'Pig'}
+
+w = x^y
+print(w)
+
+#FROZEN SET
