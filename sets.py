@@ -60,3 +60,42 @@ set2 = {'Dog', 'Cat', 'Pig'}
 set2.pop()
 print(set2)
 
+set2 = {'Dog', 'Cat', 'Pig'}
+y = set2.pop()
+print(y) #return value is the removed item
+print(set2)
+
+#UNION
+set1 = {1,2,3,4,5,6}
+set2 = {'Dog', 'Cat', 'Pig'}
+
+set3 = set1.union(set2)
+print(set3)
+
+set1 = {1,2,3,4,5,6}
+set2 = {'Dog', 'Cat', 'Pig'}
+
+set3 = set1|set2
+print(set3)
+
+x = {1,2,3,4,5,6}
+y = ['Dog', 'Cat', 'Pig']
+
+q = x.union(y)
+print(q)
+#The | operator allows joining of set and set alone
+
+
+#INTERSECTION
+x = {1,2,3,4,5,6, 'milk'}
+y = {'Dog', 'Cat','milk', 'Pig'}
+
+w = x.intersection(y)
+print(w)
+
+
+x = {1,2,3,4,5,6, 'milk'}
+y = {'Dog', 'Cat','milk', 'Pig'}
+
+w = x & y
+print(w)
