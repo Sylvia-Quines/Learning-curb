@@ -20,8 +20,15 @@ mySet = {'food', 'money', 'house', 'shoe', 'bag'}
 for x in mySet:
     print(x)
     
+
 mySet = {'food', 'money', 'house', 'shoe', 'bag'}
-i = 0
-while i < len(mySet):
-    print(i)
-    i = i+1   
+print('yam' not in mySet)
+
+
+mySet = {'food', 'money', 'house', 'shoe', 'bag'}
+print('money' in mySet)
+
+
+mySet = {'food', 'money', 'house', 'shoe', 'bag'}
+mySet.add('Car')
+print(mySet)
