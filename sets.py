@@ -131,4 +131,7 @@ y = {'Dog', 'Cat','milk', 'Pig'}
 w = x^y
 print(w)
 
-#FROZEN SET
+#FROZEN SET IS AN IMMUTABLE VERSION OF SET(YOU CANNOT ADD OR REMOVE ITEMS)
+Cars = frozenset({'Audi', 'Toyota', 'Honda', 'Hyndai', 'Mazda'})
+print(Cars)
+print(type(Cars))
