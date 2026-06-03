@@ -6,6 +6,8 @@ thisdict = {
 print(thisdict)
 print(thisdict["brand"])
 
+
+#ONLY ONE OF THE SAME VALUES WILL BE PRINTED
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -13,3 +15,5 @@ thisdict = {
   "year": 2020
 }
 print(thisdict)
+print(len(thisdict))
+
