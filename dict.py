@@ -4,4 +4,4 @@ thisdict = {
   "year": 1964
 }
 print(thisdict)
-
+print(thisdict["brand"])
