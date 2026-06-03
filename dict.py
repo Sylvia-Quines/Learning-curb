@@ -16,4 +16,7 @@ thisdict = {
 }
 print(thisdict)
 print(len(thisdict))
+print(type(thisdict))
 
+mydict = dict(name = 'Yaw', age = 23, height = 34, gender = 'male')
+print(mydict)
