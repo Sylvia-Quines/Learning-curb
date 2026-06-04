@@ -66,3 +66,13 @@ thisdict["car"] = 'Ford'
 thisdict.update({'year' : 3485})
 c = thisdict.items()
 print(c)
+
+#ADD ITEMS
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020
+}
+thisdict['color'] = 'green'
+print(thisdict)
