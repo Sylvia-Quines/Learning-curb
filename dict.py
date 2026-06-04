@@ -30,3 +30,14 @@ thisdict = {
 }
 x = thisdict["brand"]
 print(x)
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020
+}
+x = thisdict.get("year")
+y = thisdict.keys()
+print(x)
+print(y)
