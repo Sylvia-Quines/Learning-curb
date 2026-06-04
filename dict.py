@@ -76,3 +76,5 @@ thisdict = {
 }
 thisdict['color'] = 'green'
 print(thisdict)
+thisdict.update({'color': 'blue'})
+print(thisdict)
