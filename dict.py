@@ -20,3 +20,13 @@ print(type(thisdict))
 
 mydict = dict(name = 'Yaw', age = 23, height = 34, gender = 'male')
 print(mydict)
+
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020
+}
+x = thisdict["brand"]
+print(x)
