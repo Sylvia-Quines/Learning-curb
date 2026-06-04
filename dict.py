@@ -37,6 +37,7 @@ thisdict = {
   "year": 1964,
   "year": 2020
 }
+#ACCESS ITEMS
 x = thisdict.get("year")
 y = thisdict.keys()
 print(x)
@@ -52,4 +53,16 @@ print(v)
 if 'model' in thisdict:
   print('Yes "model" is present!')
   
-  
+ 
+ 
+ #CHANGE ITEMS
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020
+}
+thisdict["car"] = 'Ford'
+thisdict.update({'year' : 3485})
+c = thisdict.items()
+print(c)
