@@ -48,3 +48,8 @@ g = thisdict.values()
 print(g)
 v = thisdict.items()
 print(v)
+
+if 'model' in thisdict:
+  print('Yes "model" is present!')
+  
+  
