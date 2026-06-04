@@ -41,3 +41,7 @@ x = thisdict.get("year")
 y = thisdict.keys()
 print(x)
 print(y)
+
+thisdict['car']= 'Toyota'
+print(y)
+
