@@ -46,3 +46,5 @@ thisdict['car']= 'Toyota'
 print(y)
 g = thisdict.values()
 print(g)
+v = thisdict.items()
+print(v)
