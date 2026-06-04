@@ -44,4 +44,5 @@ print(y)
 
 thisdict['car']= 'Toyota'
 print(y)
-
+g = thisdict.values()
+print(g)
