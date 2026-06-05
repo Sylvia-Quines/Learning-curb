@@ -78,3 +78,16 @@ thisdict['color'] = 'green'
 print(thisdict)
 thisdict.update({'color': 'blue'})
 print(thisdict)
+
+#REMOVE ITEMS
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  
+}
+thisdict.pop('year')
+print(thisdict)
+
+thisdict.popitem()
+print(thisdict)
