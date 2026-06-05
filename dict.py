@@ -91,3 +91,6 @@ print(thisdict)
 
 thisdict.popitem()
 print(thisdict)
+
+del thisdict["brand"]
+print(thisdict)
