@@ -109,3 +109,6 @@ for x in thisdict.keys():
   
 for x in thisdict.values():
   print(x)  
+  
+for x, y in thisdict.items():
+  print(x,y)  
