@@ -112,3 +112,13 @@ for x in thisdict.values():
   
 for x, y in thisdict.items():
   print(x,y)  
+  
+#COPY DICTIONARIES
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  
+}
+mydict = thisdict.copy()
+print(mydict)  
