@@ -169,3 +169,4 @@ myfamily = {
   "child3" : child3
 }
 print(myfamily)
+print(myfamily["child2"]["name"])
