@@ -47,4 +47,11 @@ elif day == 6:
 elif day == 7:
     print("Sunday")                     
     
-    
+a =  4
+d = 34
+if a == d:
+    print('It is less')  
+elif a > d:
+    print('Try again')    
+else:
+    print('b is greater than a')     
