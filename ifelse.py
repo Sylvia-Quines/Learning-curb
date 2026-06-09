@@ -55,3 +55,17 @@ elif a > d:
     print('Try again')    
 else:
     print('b is greater than a')     
+    
+a = 30
+b = 20
+if a > b:
+    print("You are right!")
+else:
+    print('It is not!')
+    
+username = 'Adwoa'
+if len(username) > 0:
+    print(f'Welcome, {username}!')
+else:
+    print('Username cannot be empty.')         
+    
