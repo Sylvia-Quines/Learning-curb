@@ -8,5 +8,8 @@ if Age > 50:
     print("You are allowed")
     print('You are respected.')
     print('You caanot drink.')
-        
+       
+is_legal  = True
+if is_legal:
+    print('You can vote.')           
     
