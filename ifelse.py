@@ -6,6 +6,7 @@ if a > b:
 Age = 52
 if Age > 50:
     print("You are allowed")
-    
+    print('You are respected.')
+    print('You caanot drink.')
         
     
