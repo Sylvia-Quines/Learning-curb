@@ -170,3 +170,9 @@ myfamily = {
 }
 print(myfamily)
 print(myfamily["child2"]["name"])
+
+for x, obj in myfamily.items(): #print the outer key
+  print(x)
+
+  for y in obj:   #print the inner keys
+    print(y + ':', obj[y])
