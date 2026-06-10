@@ -73,4 +73,10 @@ else:
 #SHORTHAND IF...ELSE
 a = 23
 n= 32
-print('Yes') if n > a else print('Oh no.')    
+print('Yes') if n > a else print('Oh no.')    #This is called a conditional expression or a ternary operator
+
+
+a = 23
+n= 32
+b = a if a > n else n
+print('Bigger is', b)
