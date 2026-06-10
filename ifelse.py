@@ -68,4 +68,9 @@ if len(username) > 0:
     print(f'Welcome, {username}!')
 else:
     print('Username cannot be empty.')         
-    
+
+
+#SHORTHAND IF...ELSE
+a = 23
+n= 32
+print('Yes') if n > a else print('Oh no.')    
