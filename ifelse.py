@@ -80,3 +80,21 @@ a = 23
 n= 32
 b = a if a > n else n
 print('Bigger is', b)
+
+#LOGICAL OPERATORS
+a = 230
+b = 120
+c = 324
+if a > b and c > a:  # And prints true if both statements are true
+    print('You are right')
+
+a = 230
+b = 120
+c = 324
+if a > b or c < a:  # OR prints true if at least one of the statements is true
+    print('You are right')
+    
+    
+    
+    
+    
