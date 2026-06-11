@@ -112,7 +112,7 @@ level = 200
 student_id = "23gh"
 password = "1234"
 
-if level == 200 and student_id and password:
+if level > 200 and student_id and password:
     print("Can login to portal!")
 else:
     print("Get id and password!")
