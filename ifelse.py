@@ -101,6 +101,12 @@ if not a > b:  #Not operator prints the reverse of the result
     print("The result will be a reverse of the correct answer")        
     
     
+#Combining the logical operators
+age = 30
+is_student = False
+has_index = True
+if (age > 20 or age > 35) and not is_student or has_index:
+    print('Should have index.')
     
     
     
