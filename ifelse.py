@@ -107,7 +107,14 @@ is_student = False
 has_index = True
 if (age > 20 or age > 35) and not is_student or has_index:
     print('Should have index.')
-    
-    
+ 
+level = 200   
+student_id = "23gh"
+password = "1234"
+
+if level == 200 and student_id and password:
+    print("Can login to portal!")
+else:
+    print("Get id and password!")
     
     
