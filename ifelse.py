@@ -116,5 +116,15 @@ if level > 200 and student_id and password:
     print("Can login to portal!")
 else:
     print("Get id and password!")
-    
-    
+
+
+#The inner if statement  will only execute if the outer  if expression is correct.
+c = 23
+
+if c > 20:
+    print('Above it')
+    if c > 25:
+        print ('Right!')
+    else:
+        print('Try again!')  
+
