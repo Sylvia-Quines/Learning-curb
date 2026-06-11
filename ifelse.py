@@ -95,6 +95,13 @@ if a > b or c < a:  # OR prints true if at least one of the statements is true
     print('You are right')
     
     
+a = 33
+b = 120
+if not a > b:  #Not operator prints the reverse of the result
+    print("The result will be a reverse of the correct answer")        
+    
+    
+    
     
     
     
