@@ -128,3 +128,29 @@ if c > 20:
     else:
         print('Try again!')  
 
+age = 29
+has_passport = True
+
+if age >= 20:
+    if has_passport:
+        print("You can travel!")
+    else:
+        print("You can't drive!")
+else:
+    print("You are too young to travel!")
+    
+
+score = 70
+attendance = 20
+submitted_project = True
+
+if score >= 70:
+    if attendance > 15:
+        if submitted_project:
+            print("Congratulations, you have graduated!")
+        else:
+            print("You have to submit project before you can graduate.")
+    else:
+        print("Your attendace is not complete")
+else:
+    print("You are not eligible to graduate!")
