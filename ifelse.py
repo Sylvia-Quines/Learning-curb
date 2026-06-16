@@ -181,7 +181,7 @@ if username:
 else:
     print("username required!")
     
-    
+#OR    
 username = 'Sylvia Quines'
 password = 'quines123'
 is_active = True
@@ -190,3 +190,14 @@ if username and password and is_active:
     print("Login sucessful")
 else:
     print("Account not found!")    
+
+
+#PASS STATEMENT (used to prevent getting errors for empty if statements)
+age = 30
+lenght = 3.6
+
+if age > lenght:
+    pass
+
+
+
