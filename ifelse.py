@@ -163,3 +163,30 @@ submitted_project = True
 
 if score >= 70 and attendance == 20 and submitted_project:
     print("Congratulations you can graduate!")
+    
+
+
+username = 'Sylvia Quines'
+password = 'quines123'
+is_active = True
+
+if username:
+    if password:
+        if is_active:
+            print("Login successful!")
+        else:
+            print("Account not found!")
+    else:
+        print("Password required!")
+else:
+    print("username required!")
+    
+    
+username = 'Sylvia Quines'
+password = 'quines123'
+is_active = True
+
+if username and password and is_active:
+    print("Login sucessful")
+else:
+    print("Account not found!")    
