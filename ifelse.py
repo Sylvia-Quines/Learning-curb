@@ -161,3 +161,5 @@ score = 70
 attendance = 20
 submitted_project = True
 
+if score >= 70 and attendance == 20 and submitted_project:
+    print("Congratulations you can graduate!")
