@@ -228,7 +228,8 @@ match day:
   case _:
     print("Looking forward to the Weekend")
     
-    
+
+# | checks multiple values in one case   
 month = 5
 day = 4
 match day:
