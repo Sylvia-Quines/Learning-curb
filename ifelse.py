@@ -154,3 +154,10 @@ if score >= 70:
         print("Your attendace is not complete")
 else:
     print("You are not eligible to graduate!")
+    
+    
+#The above can be simplefied as:
+score = 70
+attendance = 20
+submitted_project = True
+
