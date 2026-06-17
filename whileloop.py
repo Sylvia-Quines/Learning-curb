@@ -19,3 +19,11 @@ while x < 32:
     if x == 3:
         continue # loop starts when it gets to 4
     print(x)
+    
+    
+i = 1
+while i < 6:
+    print(i)
+    i += 1
+else: # it executes when the loop finishes and it is not executed once there's a break.
+    print("i is no longer less than 6")
