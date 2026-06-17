@@ -15,7 +15,7 @@ while x < 32:
 x = 2
 
 while x < 32:
+    x += 1
+    if x == 3:
+        continue # loop starts when it gets to 4
     print(x)
-    if x == 30:
-        continue # loop stops when it gets to 30
-    x += 2 
