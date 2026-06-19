@@ -5,3 +5,14 @@ for x in foodStuff:
 for x in "banana":
     print(x)
     
+foodStuff = {"Yam", "Plantain", "Cocoyam", "Cassava"}
+for x in foodStuff:
+    print(x)
+    if x == "Plantain":
+        break
+    
+foodStuff = {"Yam", "Plantain", "Cocoyam", "Cassava"}
+for x in foodStuff:
+    if x == "Plantain":
+        break
+    print(x)
