@@ -1,0 +1,10 @@
+num1 = float (input ("Enter the first number: "))
+op = input("Enter an operator: ")
+num2 = float(input("Enter the second number: "))
+
+if op == '+':
+    print("Answer is: ", num1+num2)
+if op == '-':
+    print("Answer is: ", num1-num2)
+if op == '/':
+    print("Answer is: ", num1/num2)
