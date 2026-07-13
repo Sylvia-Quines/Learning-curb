@@ -10,5 +10,9 @@ elif op == '/':
     print("Answer is: ", num1/num2)
 elif op == '*':
     print("Answer is: ", num1*num2)
+elif op == '%':
+    print("Answer is: ", num1%num2)
 else:
     ('Invalid operator!')
+    
+
