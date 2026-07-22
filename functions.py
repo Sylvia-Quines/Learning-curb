@@ -10,7 +10,7 @@ else:
     print("She was available")
     
 def fahrenheit_to_celsius(fahrenheit):
-    return(fahrenheit - 32) *5 / 9
+   celsius =(fahrenheit - 32) *5 / 9
 
 
-print(fahrenheit_to_celsius(43))
+fahrenheit_to_celsius(43)
