@@ -19,3 +19,9 @@ def m_greeting():
     return ("Hello sir, goodmorning!")
 
 print(m_greeting())
+
+def identity_info(fname): #fname is an argument
+    print(fname + " Asare")
+    
+identity_info("Ennin")
+identity_info("Esther")
