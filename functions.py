@@ -16,4 +16,6 @@ def fahrenheit_to_celsius(fahrenheit):
 print(fahrenheit_to_celsius(43))
 
 def m_greeting():
-    return "Hello sir, goodmorning!"
+    return ("Hello sir, goodmorning!")
+
+print(m_greeting())
