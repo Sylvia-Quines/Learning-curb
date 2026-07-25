@@ -20,8 +20,17 @@ def m_greeting():
 
 print(m_greeting())
 
-def identity_info(fname): #fname is an argument
+def identity_info(fname): #fname is a parameter. Parameter is an information that is passed into a functon
     print(fname + " Asare")
     
 identity_info("Ennin")
 identity_info("Esther")
+
+def my_func():
+    pass  #Pass is used when the function placeholder created has no code.
+
+def my_details(name):#name is a parameter
+    print("This is my name: " + name)
+    return
+
+my_details("Sylvia Quines")
