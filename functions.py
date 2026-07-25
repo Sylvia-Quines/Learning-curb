@@ -48,3 +48,8 @@ def student_details(name, index):
 student_details(input("Enter your name: "), input("Enter your index number: "))
 
 #Default parameters: when the function is acalled without any assigned argument it uses the deafualt value
+def origin(country = "Norway"):
+    print("I am from ", country)
+    
+origin("Germany")
+origin()
