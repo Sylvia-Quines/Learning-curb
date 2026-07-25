@@ -31,6 +31,6 @@ def my_func():
 
 def my_details(name):#name is a parameter
     print("This is my name: " + name)
-    return
+   
 
 my_details("Sylvia Quines")
