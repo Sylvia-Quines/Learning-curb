@@ -30,7 +30,21 @@ def my_func():
     pass  #Pass is used when the function placeholder created has no code.
 
 def my_details(name):#name is a parameter
-    print("This is my name: " + name)
-   
+    print("This is my name: " + name) 
 
 my_details("Sylvia Quines")
+
+def my_details(name, age):
+    print("This is my name: " + name)
+    print(f"I am {age}")
+
+my_details("Sylvia Quines", 65)
+my_details("John Doe", 76)
+
+
+def student_details(name, index):
+    print(f"{name.strip().upper()} {index}")
+
+student_details(input("Enter your name: "), input("Enter your index number: "))
+
+#Default parameters: when the function is acalled without any assigned argument it uses the deafualt value
