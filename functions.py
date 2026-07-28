@@ -53,3 +53,12 @@ def origin(country = "Norway"):
     
 origin("Germany")
 origin()
+
+#Keyword Arguments
+def my_function(animal, name):
+    print("Ï have a ", animal)
+    print("My ", animal + "'s name is ", name)
+    
+my_function(animal= "cat", name= "Chuck")
+
+  
