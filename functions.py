@@ -61,4 +61,25 @@ def my_function(animal, name):
     
 my_function(animal= "cat", name= "Chuck")
 
-  
+
+def my_function(fruits):
+   for fruit in fruits:
+    print(fruit)
+
+my_fruits = ["apple", "banana", "cherry"]
+my_function(my_fruits)
+
+#Returning values
+def second_func(x , y):
+    return x + y
+
+results = second_func(3,6)
+print(results)
+
+#Returns a tuple
+def my_function():
+  return (10, 20)
+
+x, y = my_function()
+print("x:", x)
+print("y:", y)
