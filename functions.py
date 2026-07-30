@@ -83,3 +83,11 @@ def my_function():
 x, y = my_function()
 print("x:", x)
 print("y:", y)
+
+#ARGS(when you do not know the number of arguments to pass yp
+# you add * infront of the parameter name)
+
+def func_names(*names):
+    print("The names of my children are:" + names[1])
+    
+func_names("Kevin", "Yaw", "Rich")
