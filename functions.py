@@ -91,3 +91,10 @@ def func_names(*names):
     print("The names of my children are:" + names[1])
     
 func_names("Kevin", "Yaw", "Rich")
+
+#SCOPE (a variable created inside a function is available inside the function)
+def scope():
+    x = 300
+    print(x)
+    
+scope()
