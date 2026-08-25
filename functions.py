@@ -84,7 +84,7 @@ x, y = my_function()
 print("x:", x)
 print("y:", y)
 
-#ARGS(when you do not know the number of arguments to pass yp
+#ARGS(when you do not know the number of arguments to pass yet
 # you add * infront of the parameter name)
 
 def func_names(*names):
@@ -92,9 +92,3 @@ def func_names(*names):
     
 func_names("Kevin", "Yaw", "Rich")
 
-#SCOPE (a variable created inside a function is available inside the function)
-def scope():
-    x = 300
-    print(x)
-    
-scope()
