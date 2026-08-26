@@ -9,3 +9,7 @@ print(x)
 i = range(2, 22)
 
 
+#RAnge isoften usedin for loops
+for i in range(3,34):
+    print(i)
+
