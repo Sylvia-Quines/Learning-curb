@@ -12,3 +12,13 @@ print(Girls)
 d = len(Girls) #This gets the length of the array
 print(d)
 
+
+#Lopping through arrays
+
+for t in Girls:
+    print(t)
+
+Girls.append("Faith") 
+print(Girls)
+
+#
