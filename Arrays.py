@@ -21,4 +21,5 @@ for t in Girls:
 Girls.append("Faith") 
 print(Girls)
 
-#
+Girls.pop(1)
+print(Girls)
