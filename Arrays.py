@@ -23,3 +23,6 @@ print(Girls)
 
 Girls.pop(1)
 print(Girls)
+
+Girls.reverse()
+print(Girls)
